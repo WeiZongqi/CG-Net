@@ -14,7 +14,7 @@ please checkout to the [pytorch-0.4.1](https://github.com/open-mmlab/mmdetection
 This project is released under the [Apache 2.0 license](LICENSE).
 
 - You can find the detailed configs in configs/DOTA.
-- The trained models are available at [Google Drive](https://drive.google.com/drive/folders/1ChLKP16Z_QReTYWGivZ2OXXuITyKNw0r).
+- The trained models are available at [Google Drive](https://drive.google.com/drive/folders/1UhCU2H-kx4oSnN4eepGIxVz9i30eMslu?usp=sharing).
 ## Installation
 
 
@@ -36,11 +36,11 @@ We appreciate all contributions to improve benchmarks for object detection in ae
 If you use our work, please consider cite .
 
 ```
-@misc{liang2021cgnet,
-title= {Learning Calibrated-Guidance for Object Detection in Aerial Images},
-author = {Dong Liang and Zongqi Wei and Dong Zhang and Qixiang Geng and Liyan Zhang and Han Sun and Huiyu Zhou and Mingqiang Wei and Pan Gao},
-booktitle= {arXiv:2103.11399},
-year = {2021}
+@InProceedings{liang2021learning,
+      title={Learning Calibrated-Guidance for Object Detection in Aerial Images}, 
+      author={Dong, Liang and Zongqi, Wei and Dong, Zhang and Qixiang, Geng and Liyan, Zhang and Han, Sun and Huiyu, Zhou and Mingqiang, Wei and Pan, Gao},
+      booktitle ={arXiv:2103.11399},
+      year={2021}
 }
 ```
 
