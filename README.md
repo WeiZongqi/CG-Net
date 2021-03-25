@@ -1,6 +1,6 @@
 
 # Learning Calibrated-Guidance for Object Detection in Aerial Images
-Paper can be seen here [arxiv](https://arxiv.org/abs/2103.11399)
+Paper can be seen here [https://arxiv.org/abs/2103.11399](https://arxiv.org/abs/2103.11399)
 
 ## Introduction
 This codebase is created to build benchmarks for object detection in aerial images.
