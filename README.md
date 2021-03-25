@@ -33,7 +33,7 @@ We appreciate all contributions to improve benchmarks for object detection in ae
 
 ## Citing
 
-If you use our work, please consider cite .
+If you use our work, please consider cite:
 
 ```
 @InProceedings{liang2021learning,
