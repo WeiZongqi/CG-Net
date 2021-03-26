@@ -12,7 +12,9 @@ The master branch works with **PyTorch 1.1** or higher. If you would like to use
 please checkout to the [pytorch-0.4.1](https://github.com/open-mmlab/mmdetection/tree/pytorch-0.4.1) branch.
 
 ## Results
+(/show/all.png)
 
+(/show/compare.png)
 
 ## Experiment
 
