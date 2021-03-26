@@ -4,7 +4,14 @@ Paper can be seen here [https://arxiv.org/abs/2103.11399](https://arxiv.org/abs/
 
 
 ****
+Experiment:
 
+ImageNet Pretrained Model
+[ResNet50](https://drive.google.com/file/d/1mQ9S0FzFpPHnocktH0DGVysufGt4tH0M/view?usp=sharing)
+[ResNet101](https://drive.google.com/file/d/1qlVf58T0fY4dddKst5i7-CL3DXhBi3Mp/view?usp=sharing)
+[ResNet152](https://drive.google.com/file/d/1y08s30DdWUyaFU89vEpospMi8TjqrJIz/view?usp=sharing)
+
+The effectiveness of our proposed methods with different backbone network on the test of DOTA.
 |Backbone|+Ours|Weight|mAP(%)|
 |---|---|---|---|
 |ResNet-50|||73.26|
