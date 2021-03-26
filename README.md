@@ -34,8 +34,8 @@ The effectiveness of our proposed methods with different backbone network on the
 CG-Net Results in DOTA.
 |Backbone|Aug Rotate|Task|Weight|mAP(%)|
 |:---:|:---:|:---:|:---:|:---:|
-|ResNet-100|+|Oriented||73.06|
-|ResNet-100|+|Horizontal||74.30|
+|ResNet-100|+|Oriented||77.89|
+|ResNet-100|+|Horizontal||78.26|
 
 ## Installation
 
