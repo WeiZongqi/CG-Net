@@ -17,24 +17,24 @@ We have tested the following versions of OS and softwares:
 - NCCL: 2.1.15/2.2.13/2.3.7/2.4.2
 - GCC: 4.9/5.3/5.4/7.3
 
-### Install Aerialdetection
+### Install CG-Net
 
 a. Create a conda virtual environment and activate it. Then install Cython.
 
 ```shell
-conda create -n AerialDetection python=3.7 -y
-source activate AerialDetection
+conda create -n CG-Net python=3.7 -y
+source activate CG-Net
 
 conda install cython
 ```
 
 b. Install PyTorch stable or nightly and torchvision following the [official instructions](https://pytorch.org/).
 
-c. Clone the AerialDetection repository.
+c. Clone the CG-Net repository.
 
 ```shell
-git clone https://github.com/dingjiansw101/AerialDetection.git
-cd AerialDetection
+git clone https://github.com/WeiZongqi/CG-Net.git
+cd CG-Net
 ```
 
 d. Compile cuda extensions.
@@ -43,7 +43,7 @@ d. Compile cuda extensions.
 ./compile.sh
 ```
 
-e. Install AerialDetection (other dependencies will be installed automatically).
+e. Install CG-Net (other dependencies will be installed automatically).
 
 ```shell
 pip install -r requirements.txt
@@ -56,7 +56,7 @@ Note:
 1. It is recommended that you run the step e each time you pull some updates from github. If there are some updates of the C/CUDA codes, you also need to run step d.
 The git commit id will be written to the version number with step e, e.g. 0.6.0+2e7045c. The version will also be saved in trained models.
 
-2. Following the above instructions, AerialDetection is installed on `dev` mode, any modifications to the code will take effect without installing it again.
+2. Following the above instructions, CG-Net is installed on `dev` mode, any modifications to the code will take effect without installing it again.
 
 ### Install DOTA_devkit
 ```
@@ -66,9 +66,9 @@ The git commit id will be written to the version number with step e, e.g. 0.6.0+
     python setup.py build_ext --inplace
 ```
 ### Notice
-You can run `python(3) setup.py develop` or `pip install -e .` to install AerialDetection if you want to make modifications to it frequently.
+You can run `python(3) setup.py develop` or `pip install -e .` to install CG-Net if you want to make modifications to it frequently.
 
-If there are more than one AerialDetection on your machine, and you want to use them alternatively.
+If there are more than one CG-Net on your machine, and you want to use them alternatively.
 Please insert the following code to the main file
 ```python
 import os.path as osp
