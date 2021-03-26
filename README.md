@@ -22,14 +22,20 @@ ImageNet Pretrained Model from Pytorch
 - [ResNet152](https://drive.google.com/file/d/1y08s30DdWUyaFU89vEpospMi8TjqrJIz/view?usp=sharing)
 
 The effectiveness of our proposed methods with different backbone network on the test of DOTA.
-|Backbone|+Ours|Weight|mAP(%)|
-|---|---|---|---|
+|Backbone|+CG|Weight|mAP(%)|
+|:---:|:---:|:---:|:---:|
 |ResNet-50|||73.26|
 |ResNet-50|+||74.21|
 |ResNet-100|||73.06|
 |ResNet-100|+||74.30|
 |ResNet-152|||72.78|
 |ResNet-152|+||73.53|
+
+CG-Net Results in DOTA.
+|Backbone|Aug Rotate|Task|Weight|mAP(%)|
+|:---:|:---:|:---:|:---:|:---:|
+|ResNet-100|+|Oriented||73.06|
+|ResNet-100|+|Horizontal||74.30|
 
 ## Installation
 
