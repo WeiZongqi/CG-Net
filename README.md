@@ -3,6 +3,8 @@
 Paper can be seen here [https://arxiv.org/abs/2103.11399](https://arxiv.org/abs/2103.11399)
 
 
+****
+
 |Backbone|+Ours|Weight|mAP(%)
 |---|---|---|---|---
 |ResNet-50|||73.26
