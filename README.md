@@ -2,6 +2,16 @@
 # Learning Calibrated-Guidance for Object Detection in Aerial Images
 Paper can be seen here [https://arxiv.org/abs/2103.11399](https://arxiv.org/abs/2103.11399)
 
+
+|Backbone|+Ours|Weight|mAP(%)
+|---|---|---|---|---
+|ResNet-50|||73.26
+|ResNet-50|+||74.21
+|ResNet-100|||73.06
+|ResNet-100|+||74.30
+|ResNet-152|||72.78
+|ResNet-152|+||73.53
+
 ## Introduction
 This codebase is created to build benchmarks for object detection in aerial images.
 It is modified from [mmdetection](https://github.com/open-mmlab/mmdetection).
@@ -31,7 +41,7 @@ We appreciate all contributions to improve benchmarks for object detection in ae
 
 ## Citing
 
-If you use our work, please consider cite:
+If you use our work, please consider citing:
 
 ```
 @InProceedings{liang2021learning,
