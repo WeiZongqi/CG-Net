@@ -4,12 +4,22 @@
 We propose a simple yet effective Calibrated-Guidance (CG) scheme to enhance channel communications in a feature transformer fashion, which can adaptively determine the calibration weights for each channel based on the global feature affinity-pairs. Specifically, given a set of feature maps, CG first computes the feature similarity between each channel and the remaining channels as the intermediary calibration guidance. Then, re-representing each channel by aggregating all the channels weighted together via the guidance. Our CG can be plugged into any deep neural network, which is named as CG-Net. To demonstrate its effectiveness and efficiency, extensive experiments are carried out on both oriented and horizontal object detection tasks of aerial images. Results on two challenging benchmarks (\ie, DOTA and HRSC2016) demonstrate that our CG-Net can achieve state-of-the-art performance in accuracy with a fair computational overhead.
 
 ****
-Experiment:
 
-ImageNet Pretrained Model
-[ResNet50](https://drive.google.com/file/d/1mQ9S0FzFpPHnocktH0DGVysufGt4tH0M/view?usp=sharing)
-[ResNet101](https://drive.google.com/file/d/1qlVf58T0fY4dddKst5i7-CL3DXhBi3Mp/view?usp=sharing)
-[ResNet152](https://drive.google.com/file/d/1y08s30DdWUyaFU89vEpospMi8TjqrJIz/view?usp=sharing)
+## Introduction
+This codebase is created to build benchmarks for object detection in aerial images.
+It is modified from [mmdetection](https://github.com/open-mmlab/mmdetection).
+The master branch works with **PyTorch 1.1** or higher. If you would like to use PyTorch 0.4.1,
+please checkout to the [pytorch-0.4.1](https://github.com/open-mmlab/mmdetection/tree/pytorch-0.4.1) branch.
+
+##Results
+
+
+##Experiment
+
+ImageNet Pretrained Model from Pytorch
+- [ResNet50](https://drive.google.com/file/d/1mQ9S0FzFpPHnocktH0DGVysufGt4tH0M/view?usp=sharing)
+- [ResNet101](https://drive.google.com/file/d/1qlVf58T0fY4dddKst5i7-CL3DXhBi3Mp/view?usp=sharing)
+- [ResNet152](https://drive.google.com/file/d/1y08s30DdWUyaFU89vEpospMi8TjqrJIz/view?usp=sharing)
 
 The effectiveness of our proposed methods with different backbone network on the test of DOTA.
 |Backbone|+Ours|Weight|mAP(%)|
@@ -21,19 +31,6 @@ The effectiveness of our proposed methods with different backbone network on the
 |ResNet-152|||72.78|
 |ResNet-152|+||73.53|
 
-## Introduction
-This codebase is created to build benchmarks for object detection in aerial images.
-It is modified from [mmdetection](https://github.com/open-mmlab/mmdetection).
-The master branch works with **PyTorch 1.1** or higher. If you would like to use PyTorch 0.4.1,
-please checkout to the [pytorch-0.4.1](https://github.com/open-mmlab/mmdetection/tree/pytorch-0.4.1) branch.
-
-   
-## License
-
-This project is released under the [Apache 2.0 license](LICENSE).
-
-- You can find the detailed configs in configs/DOTA.
-- The trained models are available at [Google Drive](https://drive.google.com/drive/folders/1UhCU2H-kx4oSnN4eepGIxVz9i30eMslu?usp=sharing).
 ## Installation
 
 Please refer to [INSTALL.md](INSTALL.md) for installation.
