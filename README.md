@@ -17,9 +17,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 - The trained models are available at [Google Drive](https://drive.google.com/drive/folders/1UhCU2H-kx4oSnN4eepGIxVz9i30eMslu?usp=sharing).
 ## Installation
 
-
-  Please refer to [INSTALL.md](INSTALL.md) for installation.
-
+Please refer to [INSTALL.md](INSTALL.md) for installation.
 
     
 ## Get Started
