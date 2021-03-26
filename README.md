@@ -12,8 +12,10 @@ The master branch works with **PyTorch 1.1** or higher. If you would like to use
 please checkout to the [pytorch-0.4.1](https://github.com/open-mmlab/mmdetection/tree/pytorch-0.4.1) branch.
 
 ## Results
+Visualization results for oriented object detection on the test set of DOTA.
 ![Different class results](/show/all.png)
 
+ Comparison to the baseline on DOTA for oriented object detection with ResNet-101. The figures with blue boxes are the results of the baseline and pink boxes are the results of our proposed CG-Net.
 ![Baseline and CG-Net results](/show/compare.png)
 
 ## Experiment
