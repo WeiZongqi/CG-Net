@@ -1,6 +1,5 @@
 
-# Learning Calibrated-Guidance for Object Detection in Aerial Images
-Paper can be seen here [https://arxiv.org/abs/2103.11399](https://arxiv.org/abs/2103.11399)
+# Learning Calibrated-Guidance for Object Detection in Aerial Images [arxiv](https://arxiv.org/abs/2103.11399)
 
 We propose a simple yet effective Calibrated-Guidance (CG) scheme to enhance channel communications in a feature transformer fashion, which can adaptively determine the calibration weights for each channel based on the global feature affinity-pairs. Specifically, given a set of feature maps, CG first computes the feature similarity between each channel and the remaining channels as the intermediary calibration guidance. Then, re-representing each channel by aggregating all the channels weighted together via the guidance. Our CG can be plugged into any deep neural network, which is named as CG-Net. To demonstrate its effectiveness and efficiency, extensive experiments are carried out on both oriented and horizontal object detection tasks of aerial images. Results on two challenging benchmarks (\ie, DOTA and HRSC2016) demonstrate that our CG-Net can achieve state-of-the-art performance in accuracy with a fair computational overhead.
 
