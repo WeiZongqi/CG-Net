@@ -28,12 +28,12 @@ ImageNet Pretrained Model from Pytorch
 The effectiveness of our proposed methods with different backbone network on the test of DOTA.
 |Backbone|+CG|Weight|mAP(%)|
 |:---:|:---:|:---:|:---:|
-|ResNet-50|||73.26|
-|ResNet-50|+||74.21|
-|ResNet-101|||73.06|
-|ResNet-101|+||74.30|
-|ResNet-152|||72.78|
-|ResNet-152|+||73.53|
+|ResNet-50||[download](https://drive.google.com/file/d/1FrxBLU3hbO0uGDxXWUH0b_kIaQotuw38/view?usp=sharing)|73.26|
+|ResNet-50|+|[download](https://drive.google.com/file/d/1NNE2uYnZHvtzh0K14F_3qXEMFxxU8N2W/view?usp=sharing)|74.21|
+|ResNet-101||[download]()|73.06|
+|ResNet-101|+|[download]()|74.30|
+|ResNet-152||[download](https://drive.google.com/file/d/1T4bbgsgVj_Sb27AET918cOKy3XdvC9XE/view?usp=sharing)|72.78|
+|ResNet-152|+|[download](https://drive.google.com/file/d/1JJzZVP8vi6bljHP2rHNPTBiH0LSF0Ec0/view?usp=sharing)|73.53|
 
 CG-Net Results in DOTA.
 |Backbone|Aug Rotate|Task|Weight|mAP(%)|
