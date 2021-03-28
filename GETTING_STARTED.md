@@ -71,16 +71,16 @@ Assume that you have already downloaded the checkpoints to `work_dirs/`.
 1. Test with 2 GPUs.
 
 ```shell
-./tools/dist_test.sh configs/DOTA/faster_rcnn_RoITrans_r101_fpn_CG.py \
-    work_dirs/faster_rcnn_RoITrans_r101_fpn_CG/epoch_12.pth \
-    2 --out work_dirs/faster_rcnn_RoITrans_r101_fpn_CG/results.pkl 
+./tools/dist_test.sh configs/DOTA/faster_rcnn_RoITrans_r101_fpn_CG_rotate.py \
+    work_dirs/faster_rcnn_RoITrans_r101_fpn_CG_rotate/epoch_12.pth \
+    2 --out work_dirs/faster_rcnn_RoITrans_r101_fpn_CG_rotate/results.pkl 
 ```
 
 3. Parse the results.pkl to the format needed for [DOTA evaluation](http://117.78.28.204:8001/)
 
 For methods with only OBB Head, set the type OBB.
 ```
-python tools/parse_results.py --config configs/DOTA/faster_rcnn_RoITrans_r101_fpn_CG.py --type OBB
+python tools/parse_results.py --config configs/DOTA/faster_rcnn_RoITrans_r101_fpn_CG_rotate.py --type OBB
 ```
 
 ### Demo of inference in a large size image.
@@ -113,7 +113,7 @@ If you want to specify the working directory in the command, you can add an argu
 
 demo for train.
 ```
-./tools/dist_train.sh configs/DOTA/faster_rcnn_RoITrans_r101_fpn_CG.py 2
+./tools/dist_train.sh configs/DOTA/faster_rcnn_RoITrans_r101_fpn_CG_rotate.py 2
 ```
 Optional arguments are:
 
