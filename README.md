@@ -63,7 +63,7 @@ If you use our work, please consider citing:
 @InProceedings{liang2021learning,
       title={Learning Calibrated-Guidance for Object Detection in Aerial Images}, 
       author={Dong, Liang and Zongqi, Wei and Dong, Zhang and Qixiang, Geng and Liyan, Zhang and Han, Sun and Huiyu, Zhou and Mingqiang, Wei and Pan, Gao},
-      booktitle ={arXiv:2103.11399},
+      booktitle ={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
       year={2021}
 }
 ```
